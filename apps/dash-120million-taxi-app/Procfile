@@ -1,0 +1,1 @@
+web: VAEX_NUM_THREADS=8 gunicorn -w 16 app:server
